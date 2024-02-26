@@ -26,16 +26,16 @@ public class Main_bj_17140_이차원_배열과_연산_서울_20반_심재운 {
 
 		int count = 0;
 
-//		while (arr.get(r).get(c) != k) {
-//			arrFunc();
-//			if (count == 100)
-//				break;
-//			count++;
-//		}
-		arrFunc();
+		while (true) {
+			if (r - 1 < arr.length && c - 1 < arr[0].length && arr[r - 1][c - 1] == k) break;
+			arrFunc();
+			//for(int[] a: arr) System.out.println(Arrays.toString(a));
+			if (count == 100)
+				break;
+			count++;
+		}
 		
-		for (int[] a : arr) System.out.println(Arrays.toString(a));
-
+		System.out.println(count == 100 ? -1 : count);
 	}
 
 	static void arrFunc() {
@@ -44,7 +44,7 @@ public class Main_bj_17140_이차원_배열과_연산_서울_20반_심재운 {
 		List<ArrayList<Integer>> temp = new ArrayList<>();
 		int maxValue = 0;
 
-		if (arr.length > arr[0].length) {
+		if (arr.length >= arr[0].length) {
 			for (int x = 0; x < arr.length; x++) {
 				int[] counter = new int[101];
 				List<int[]> row = new ArrayList<>();
@@ -116,9 +116,9 @@ public class Main_bj_17140_이차원_배열과_연산_서울_20반_심재운 {
 
 			arr = new int[temp.get(0).size()][temp.size()];
 
-			for (int y = 0; y < temp.size(); y++) {
-				for (int x = 0; x < temp.get(0).size(); x++) {
-					arr[x][y] = temp.get(x).get(y);
+			for (int x = 0; x < temp.size(); x++) {
+				for (int y = 0; y < temp.get(0).size(); y++) {
+					arr[y][x] = temp.get(x).get(y);
 				}
 			}
 		}
