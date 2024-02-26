@@ -29,7 +29,7 @@ public class Solution_bj_17136_색종이_붙이기_서울_20반_유경헌 {
 		StringTokenizer st;
 		paper = new int[10][10]; // 종이
 		extra = new int[] { 0, 5, 5, 5, 5, 5 }; // 사용할 수 있는 종이 수
-		check = new boolean[10][10]; // 붙인 상태 기록
+		check = new boolean[10][10]; // 붙인 상태 체크
 		total = 0; // 전체 1 수
 		for (int i = 0; i < 10; i++) {
 			st = new StringTokenizer(br.readLine());
@@ -70,7 +70,7 @@ public class Solution_bj_17136_색종이_붙이기_서울_20반_유경헌 {
 							}
 						}
 
-						for (int i = x; i < x + k; i++) { // 백트래킹시 돌아갈 상태 기록
+						for (int i = x; i < x + k; i++) { // 색종이 붙인 상태 표시
 							for (int j = y; j < y + k; j++) {
 								check[i][j] = true;
 							}
