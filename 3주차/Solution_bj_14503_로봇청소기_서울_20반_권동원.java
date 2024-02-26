@@ -37,8 +37,8 @@ public class Solution_bj_14503_로봇청소기_서울_20반_권동원 {
 		}
 		process();
 		sb.append(cnt);
-        System.out.println(sb);
-        br.close();
+        	System.out.println(sb);
+        	br.close();
 	}
 	
 	static void process() {
