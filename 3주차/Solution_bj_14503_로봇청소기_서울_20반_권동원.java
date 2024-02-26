@@ -42,28 +42,31 @@ public class Solution_bj_14503_로봇청소기_서울_20반_권동원 {
 	}
 	
 	static void process() {
-		cnt++;
+		cnt++; // 처음은 무조건 청소 가능하기 때문에 +1해줌
 		visited[r][c]=true;
 		while(true) {
-			if(isCanGo(r, c)) {
+			if(isCanGo(r, c)) { // 앞으로 갈 수 있으면 가고 +1
 				cnt++;
 			}
-			else if(!canBack()) {
+			else if(!canBack()) { // 앞으로 갈 수 없으며, 뒤로 갈수 있으면 가고, 안되면 멈춤
 				break;
 			}
 		}
 	}
 	
+	// 청소 안한곳:0
+	// 청소 한곳: 2
+	// 벽: 1
 	static boolean isCanGo(int x, int y) {
 		for(int i=0; i<4; i++) {
-			d=(d+3)%4;
+			d=(d+3)%4; // 반시계 90도 예) 0북->3서, 1동->0북, 2남->1동, 3서->2남
 			int nr = r + dr[d];
 			int nc = c + dc[d];
-			if(nr<0 || nr>=N || nc<0 || nc>=M) continue;
-			if(map[nr][nc]==0 && !visited[nr][nc]) {
+			if(nr<0 || nr>=N || nc<0 || nc>=M) continue;  // 범위 넘어가면 넘어감
+			if(map[nr][nc]==0 && !visited[nr][nc]) { // 청소한적 없으면(방문x && map==0)
 				r=nr;
 				c=nc;
-				map[nr][nc]=2;
+				map[nr][nc]=2; // 청소하면 2로 바꿔줌
 				return true;
 			}
 		}
@@ -71,13 +74,13 @@ public class Solution_bj_14503_로봇청소기_서울_20반_권동원 {
 	}
 	
 	static boolean canBack() {
-		int nr = r + dr[(d+2)%4];
+		int nr = r + dr[(d+2)%4]; // 뒤돌기 0북->2남, 1동->3서, 2남->0북, 3서->1동
 		int nc = c + dc[(d+2)%4];
-		if(nr<0 || nr>=N || nc<0 || nc>=M) return false;
-		if(map[nr][nc]==0 || map[nr][nc]==2) {
+		if(nr<0 || nr>=N || nc<0 || nc>=M) return false; // 범위 넘어가면 false 리턴해서 멈춤
+		if(map[nr][nc]==0 || map[nr][nc]==2) { // 갈 수 있으면(map== 0 || map== 2)
 			r=nr;
 			c=nc;
-			return true;
+			return true; // 갈수 있으니 true 리턴
 		}
 		return false;
 	}
