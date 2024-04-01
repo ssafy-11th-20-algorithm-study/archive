@@ -15,8 +15,8 @@ import java.util.StringTokenizer;
  * 최단 경로로 흩어진 열쇠들을 "모두" 찾는 것! -> 최단 경로로 모든 S와 K들이 이어져야 한다
  * => MST 문제
  *
- * 1. 모든 S - K1 ... Km ,  K1 - K2 ... Km, K2 - Km .... 간의 이동거리가 구하기
- * 2. 최단경로 구하기
+ * 1. 로봇은 S와 K에서 복제 가능함 따라서 모든 S - K1 ... Km ,  K1 - K2 ... Km, K2 - Km .... 간의 이동거리가 구하기
+ * 2. 1번 데이터를 바탕으로 최단경로 구하기
  */
 public class Solution_bj_1944_복제로봇_서울_20반_손홍서 {
 
@@ -48,8 +48,9 @@ public class Solution_bj_1944_복제로봇_서울_20반_손홍서 {
         // 0. 입력
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        N = Integer.parseInt(st.nextToken());
-        M = Integer.parseInt(st.nextToken());
+        N = Integer.parseInt(st.nextToken()); //미로크기
+        M = Integer.parseInt(st.nextToken()); //열쇠개수
+
         int index = 1; //0번은 start이므로 1번부터 index 설정
         keys = new int[M + 1][2];
         parent = new int[M + 1];
