@@ -17,6 +17,7 @@
 | 3 |[점심 식사시간](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl&categoryId=AV5-BEE6AK0DFAVl&categoryType=CODE&problemTitle=%EB%AA%A8%EC%9D%98&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=30&pageIndex=1), [색종이 붙이기](https://www.acmicpc.net/problem/17136), [로봇 청소기](https://www.acmicpc.net/problem/14503)|
 | 4 |[톱니바퀴](https://www.acmicpc.net/problem/14891), [감시](https://www.acmicpc.net/problem/15683), [사다리 조작](https://www.acmicpc.net/problem/15684), [인구 이동](https://www.acmicpc.net/problem/16234), [나무 재테크](https://www.acmicpc.net/problem/16235)|
 | 5 |[미확인 도착지](https://www.acmicpc.net/problem/9370), [복제 로봇](https://www.acmicpc.net/problem/1944), [차량 정비소](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV6c6bgaIuoDFAXy), [플로이드 2](https://www.acmicpc.net/problem/11780), [기업투자](https://www.acmicpc.net/problem/2662)|
+| 6 |[코드트리 오마카세](https://www.codetree.ai/training-field/frequent-problems/problems/codetree-omakase/description?page=1&pageSize=20), [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064), [보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258)|
 
 <br/>
 
@@ -24,11 +25,9 @@
 `권동원 > 김도한 > 손홍서 > 심재운 > 유경헌`
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문제&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;발표자&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :----: | :------------------: |
-| [미확인 도착지](https://www.acmicpc.net/problem/9370) |김도한|
-| [복제 로봇](https://www.acmicpc.net/problem/1944) | 손홍서 |
-| [차량 정비소](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV6c6bgaIuoDFAXy) | 심재운 |
-| [플로이드 2](https://www.acmicpc.net/problem/11780) | 유경헌 |
-| [기업투자](https://www.acmicpc.net/problem/2662) | 권동원 |
+| [코드트리 오마카세](https://www.codetree.ai/training-field/frequent-problems/problems/codetree-omakase/description?page=1&pageSize=20) |김도한|
+| [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064) | 손홍서 |
+| [보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258) | 심재운 |
 
 <br/>
 
