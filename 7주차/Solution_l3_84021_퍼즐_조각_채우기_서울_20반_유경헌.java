@@ -97,48 +97,24 @@ class Solution_l3_84021_퍼즐_조각_채우기_서울_20반_유경헌 {
 		
 		 */
 		block_check = new boolean[block_idx]; // 사용한 블록 체크용 boolean 배열
-
+		int[][] before = null;
+		
 		// 0 회전
 		record(0, changeKey, tn, tm); // 각 테이블의 블록 모양 체크
 
 		// 1 회전
-		int[][] temp = new int[tm][tn];
-		for (int i = 0; i < tn; i++) {
-			for (int j = 0; j < tm; j++) {
-				temp[tm - j - 1][i] = changeKey[i][j];
-			}
-		}
-		for(int[] row : temp) {
-			System.out.println(Arrays.toString(row));
-		}
-		System.out.println();
-		record(1, temp, tm, tn);
+		int[][] after_rotate = rotate(tm,tn,changeKey);
+		record(1, after_rotate, tm, tn);
+		before = after_rotate;
 
 		// 2회전
-		int[][] temp2 = new int[tn][tm];
-		for (int i = 0; i < tm; i++) {
-			for (int j = 0; j < tn; j++) {
-				temp2[tn - j - 1][i] = temp[i][j];
-			}
-		}
-		for(int[] row : temp2) {
-			System.out.println(Arrays.toString(row));
-		}
-		System.out.println();
-		record(2, temp2, tn, tm);
+		after_rotate = rotate(tn,tm,before);
+		record(2, after_rotate, tn, tm);
+		before = after_rotate;
 
 		// 3 회전
-		int[][] temp3 = new int[tm][tn];
-		for (int i = 0; i < tn; i++) {
-			for (int j = 0; j < tm; j++) {
-				temp3[tm - j - 1][i] = temp2[i][j];
-			}
-		}
-		for(int[] row : temp3) {
-			System.out.println(Arrays.toString(row));
-		}
-		System.out.println();
-		record(3, temp3, tm, tn);
+		after_rotate = rotate(tm,tn,before);
+		record(3, after_rotate, tm, tn);
 
 		// 3. 게임 보드를 완탐하며 모든 블록을 끼워본다.
 		boolean vis[][] = new boolean[gn][gm];
@@ -190,6 +166,17 @@ class Solution_l3_84021_퍼즐_조각_채우기_서울_20반_유경헌 {
 			}
 		}
 		return ans;
+	}
+
+	// 블록 회전 함수
+	private int[][] rotate(int n, int m, int[][] before) {
+		int after[][] = new int[n][m];
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < m; j++) {
+				after[m - j - 1][i] = before[i][j];
+			}
+		}
+		return after;
 	}
 
 	static boolean check_case(int mi, int mk, int[][] board_blank) {
