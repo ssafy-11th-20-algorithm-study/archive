@@ -19,6 +19,7 @@
 | 5 |[미확인 도착지](https://www.acmicpc.net/problem/9370), [복제 로봇](https://www.acmicpc.net/problem/1944), [차량 정비소](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV6c6bgaIuoDFAXy), [플로이드 2](https://www.acmicpc.net/problem/11780), [기업투자](https://www.acmicpc.net/problem/2662)|
 | 6 |[~~코드트리 오마카세~~](https://www.codetree.ai/training-field/frequent-problems/problems/codetree-omakase/description?page=1&pageSize=20), [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064), [보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258)|
 | 7 |[퍼즐 조각 채우기](https://school.programmers.co.kr/learn/courses/30/lessons/84021), [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579), [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627)|
+| 8 |[통나무 옮기기](https://www.acmicpc.net/problem/1938), [가장높은탑쌓기](https://www.acmicpc.net/problem/2655), [H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)|
 
 <br/>
 
@@ -26,9 +27,9 @@
 `권동원 > 김도한 > 손홍서 > 심재운 > 유경헌`
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문제&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;발표자&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 | :----: | :------------------: |
-| [퍼즐 조각 채우기](https://school.programmers.co.kr/learn/courses/30/lessons/84021) | 유경헌 |
-| [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579) | 권동원 |
-| [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627) | 김도한 |
+| [통나무 옮기기](https://www.acmicpc.net/problem/1938) | 손홍서 |
+| [가장높은탑쌓기](https://www.acmicpc.net/problem/2655) | 심재운 |
+| [H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747) | 유경헌 |
 
 <br/>
 
